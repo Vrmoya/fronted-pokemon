@@ -1,0 +1,32 @@
+.card{
+   padding: auto;
+    width: 200px;
+    height: 280px;
+    border: solid 2px;
+    border-color: red;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.5;
+    text-decoration: none;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    text-transform: uppercase;
+    box-shadow: 4px 4px rgba(255, 255, 255, 0.596);
+}
+
+.img{
+    width: 50%;
+    height: 40%;
+    object-fit: content;
+}
+
+.link{
+    text-decoration: none;
+}
+.p {
+    display: flexbox;
+    padding-bottom: 1;
+    justify-content: space-between;
+}

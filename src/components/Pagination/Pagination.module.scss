@@ -1,0 +1,21 @@
+.paginacion {
+    display: flex;
+    justify-content:center;
+    background-color: black;
+    
+  }
+  .a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    margin: 4px;
+    border-radius: 50%;
+    font-size: 16px;
+  }
+  .a.active {
+    background-color: rgba(231, 247, 13, 0.603);
+    color: rgb(14, 4, 4);
+  }
+  .paginacion :hover:not(.activo){
+    background-color: gray;
+  }

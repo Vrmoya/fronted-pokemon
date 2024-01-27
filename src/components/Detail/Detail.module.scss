@@ -1,0 +1,65 @@
+.background{
+  background-color: black;
+  
+}
+
+
+.container {
+  display: flex;
+  padding-top: 25%;
+  justify-content: center;
+  width: 800px;
+  height: 80vh;
+  align-items: center;
+  background-image: url("../../assets/poke2.jpg"); 
+  background-size: cover;
+  padding: 20px;
+  border-radius: 40px;
+  border: 1px solid black;
+  flex-direction: column;
+  text-transform: uppercase;
+  text-shadow: 2px 2px rgba(207, 197, 197, 0.5);
+  margin-left: 25%;
+ box-shadow: 7px 7px rgba(255, 255, 255, 0.733);
+}
+
+.image {
+  max-width: 50%;
+  max-height: auto;
+  
+}
+
+.h3{
+  text-align: center;
+  justify-content: space-around;
+  color: white;
+}
+.lists {
+  
+  
+  margin-left: 20%;
+  border-radius: 20px;
+  padding: 10px;
+  justify-content: center;
+  text-shadow: 2px 2px rgba(23, 24, 22, 0.5);
+  font-weight: bold;
+  color: rgb(219, 201, 201);
+}
+
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 7px 7px 5px 7px rgba(81, 131, 111, 0.69);
+  flex-direction: row;
+  transition: all 0.3s ease;
+  opacity: 0.8;
+
+  &:hover {
+    box-shadow: 2px 2px 1px 2px rgba(152, 81, 196, 0.69);
+  }
+}
